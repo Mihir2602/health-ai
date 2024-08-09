@@ -1,3 +1,4 @@
+// src/components/Notifications.jsx
 import React from "react";
 import { useNotifications } from "../context/NotificationContext";
 import { XIcon } from "@heroicons/react/solid";
@@ -14,10 +15,7 @@ const Notification = ({ notification, onClose }) => {
   return (
     <div className={`${bgColor} text-white px-4 py-3 rounded relative mb-2`}>
       <span className="block sm:inline">{notification.message}</span>
-      <span
-        className="absolute top-0 bottom-0 right-0 px-4 py-3"
-        onClick={onClose}
-      >
+      <span className="absolute top-0 bottom-0 right-0 px-4 py-3" onClick={onClose}>
         <XIcon className="h-6 w-6 text-white" />
       </span>
     </div>

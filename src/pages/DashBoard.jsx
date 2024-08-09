@@ -18,7 +18,7 @@ const sidebarLinks = [
   { name: "Check Up", icon: UserGroupIcon, path: "DashBoard/patients" },
   { name: "Analytics", icon: ChartBarIcon, path: "Dashboard/analytics" },
   { name: "Notifications", icon: BellIcon, path: "Dashboard/notifications" },
-  { name: "Settings", icon: CogIcon, path: "Dashboard/settings" },
+  // { name: "Edit Profile", icon: CogIcon, path: "Dashboard/editprofile" },
 ];
 
 const SidebarLink = ({ icon: Icon, name, path }) => {

@@ -11,10 +11,6 @@ const Faq2 = () => {
             <h2 className="font-bold text-[25px] md:text-[45px] leading-none mb-4">
               Frequently Asked Questions
             </h2>
-            <p>
-              It’s easier to reach your savings goals when you have the right
-              savings account. Take a look and find the right one for you!
-            </p>
           </div>
         </div>
 
